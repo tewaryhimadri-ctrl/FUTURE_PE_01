@@ -1,179 +1,83 @@
-# Future Interns — Prompt Engineering Task 1
+# FUTURE_PE_01 — AI Website Copy Generator for Local Businesses
 
-## AI Website Copy Generator for Local Businesses
+## About the Project
+A reusable AI prompt system for generating clear, persuasive, and business-focused website copy for local businesses.
 
-**Task:** Future Interns Prompt Engineering — Task 1  
-**Repository format:** `FUTURE_PE_01`  
-**Demonstration client:** Crown Studio, Guwahati, Assam  
-**Business type:** Boutique/family salon  
-**Primary tool:** ChatGPT  
-**Research date:** 4 September 2026
-
----
-
-## 1. Project Objective
-
-This project demonstrates a reusable prompt system for generating conversion-focused website copy for a real local business.
-
-The system is designed to generate:
-
-- Homepage copy with a clear value proposition
-- Service-page content
-- Persuasive CTA sections
-- Tone-adapted copy
-- Website-ready output
-- A quality-control pass to reduce generic, unsupported, or weak copy
-
-The prompt framework is reusable: a future client can replace the business inputs without rewriting the entire prompt architecture.
-
----
-
-## 2. Business Chosen
-
-### Crown Studio — Guwahati
-
-Crown Studio is presented on its official website as a boutique salon in Guwahati. Its stated positioning focuses on bespoke trends and editorial elegance. The site highlights three core expertise areas:
-
-1. Hair Styling
-2. Skin Therapy
-3. Bridal & Makeover
-
-The official site also states that the studio is on Panjabari Road near Biponon Khetra, opposite Organic Market Complex, Barbari Village, Guwahati, Assam 781037, and provides a booking phone number.
-
-### Source
+## Real Business Used
+**Crown Studio — Guwahati, Assam**
 
 Official website: https://crownstudioluxe.com/
 
-Important: marketing copy in this project is generated from the source facts above. Claims that are not supported by the source are intentionally avoided.
+## Objective
+The goal is to use AI and prompt engineering to create website content that:
+- Communicates the business value clearly
+- Explains services in a customer-friendly way
+- Uses persuasive but natural language
+- Creates clear calls to action
+- Adapts to different brand tones
+- Avoids unsupported or fabricated business claims
 
----
+## Business Services
+- Hair Styling
+- Skin Therapy
+- Bridal & Makeover
 
-## 3. Prompt System Architecture
+## What Was Created
+- Homepage website copy
+- Services-page content
+- Persuasive CTA sections
+- Reusable prompt system
+- Tone-adaptation system
+- Quality-control system
+- Business research and source documentation
+- Prompt testing
+- Website preview
 
-The workflow is:
+## Prompt Workflow
+1. Verify business information
+2. Identify target audience and messaging
+3. Generate homepage copy
+4. Generate services-page content
+5. Generate persuasive CTAs
+6. Adapt tone
+7. Run quality and factual checks
 
-```text
-Business Inputs
-      ↓
-Fact / Claim Guard
-      ↓
-Audience + Goal Definition
-      ↓
-Value Proposition
-      ↓
-Homepage Prompt
-      ↓
-Services Prompt
-      ↓
-CTA Prompt
-      ↓
-Tone Adaptation
-      ↓
-Website Copy QA
-      ↓
-Final Publish-Ready Copy
-```
+## Tone Adaptation
+The system can adapt copy to Professional, Friendly, Premium, Modern, and Conversational tones while keeping business facts unchanged.
 
-### Why this is prompt engineering rather than random content generation
+## Accuracy & Content Quality
+The system avoids unsupported:
+- Reviews and testimonials
+- Ratings
+- Prices and discounts
+- Awards and credentials
+- Guarantees
+- Customer numbers
+- Medical claims
+- Unverified services
 
-The system separates the task into controlled stages. Each stage has:
+## Reusability
+The system can be reused for other local businesses by changing the business name, location, services, verified information, audience, tone, value proposition, and CTA requirements.
 
-- Inputs
-- Role/context
-- Explicit output requirements
-- Brand/tone constraints
-- Claim-safety rules
-- Formatting requirements
-- A validation step
+## Quality Control
+The final system was checked for clarity, business relevance, persuasion, CTA clarity, tone consistency, factual accuracy, reusability, and unsupported-claim prevention.
 
-This makes the process repeatable across different local businesses.
+**QA Status: PASS**
 
----
+## Project Status
+- [x] Business research completed
+- [x] Prompt system completed
+- [x] Homepage copy completed
+- [x] Services-page copy completed
+- [x] CTA content completed
+- [x] Tone adaptation completed
+- [x] Quality control completed
+- [x] Prompt testing completed
+- [x] Documentation completed
+- [x] Public GitHub repository created
+- [x] Project uploaded to GitHub
 
-## 4. Deliverables
+## Submission
+**Repository:** FUTURE_PE_01
 
-### Website copy
-- Homepage
-- Services page
-- CTA sections
-
-### Prompt system
-- Master workflow
-- Homepage prompt
-- Services prompt
-- CTA prompt
-- Tone adaptation prompt
-- Quality-control prompt
-
-### Documentation
-- Business research/profile
-- Prompt logic
-- Test cases
-- Quality-control results
-
-### Bonus
-A static HTML website preview using the generated copy is included in `/website`.
-
----
-
-## 5. Tools
-
-The Future Interns brief allows suitable AI tools and specifically lists ChatGPT, Claude and Gemini, along with AI website builders such as Lovable and Framer AI.
-
-For this demonstration:
-
-**Primary LLM:** ChatGPT  
-**Documentation:** Markdown  
-**Website preview:** HTML/CSS  
-**Version control target:** GitHub public repository
-
----
-
-## 6. How to Reuse the System
-
-Replace the fields in `business/business-input-template.md`.
-
-Then run the prompts in this order:
-
-1. `prompts/00_master_system.md`
-2. `prompts/01_homepage_prompt.md`
-3. `prompts/02_services_prompt.md`
-4. `prompts/03_cta_prompt.md`
-5. `prompts/04_tone_adaptation.md`
-6. `prompts/05_quality_control.md`
-
-For a new client, do not copy unsupported facts from the Crown Studio example. Replace them with verified business information.
-
----
-
-## 7. Final Result
-
-The generated Crown Studio copy is in:
-
-`outputs/final_website_copy.md`
-
-The prompt testing evidence is in:
-
-`testing/prompt_tests.md`
-
-The business facts used are in:
-
-`business/crown_studio_profile.md`
-
----
-
-## 8. Submission Checklist
-
-- [x] Real local business selected
-- [x] Structured reusable prompts
-- [x] Homepage copy
-- [x] Services content
-- [x] CTA sections
-- [x] Tone adaptation
-- [x] Quality-control prompt
-- [x] Prompt logic documented
-- [x] Generated outputs documented
-- [x] Business/source information documented
-- [x] Website preview included
-- [ ] Push repository publicly to GitHub using the required name `FUTURE_PE_01`
-
+**Status:** Complete and ready for submission.
