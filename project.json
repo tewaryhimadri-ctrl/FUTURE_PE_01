@@ -1,0 +1,16 @@
+{
+  "project": "Future Interns Prompt Engineering Task 1",
+  "repository_name": "FUTURE_PE_01",
+  "client": "Crown Studio",
+  "location": "Guwahati, Assam",
+  "tool": "ChatGPT",
+  "research_date": "2026-09-04",
+  "deliverables": [
+    "Reusable prompt system",
+    "Homepage copy",
+    "Services page copy",
+    "CTA sections",
+    "Prompt testing and QA",
+    "Static website preview"
+  ]
+}
